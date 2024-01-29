@@ -1,0 +1,7 @@
+﻿struct Material {
+    sampler2D diffuseTexture;
+    sampler2D specularTexture;
+    sampler2D emissionTexture;
+    vec3 ambientColor;
+    float shininess;
+};
